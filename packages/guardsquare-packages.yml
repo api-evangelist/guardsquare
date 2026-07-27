@@ -1,0 +1,53 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Guardsquare
+notes: >-
+  Guardsquare's public first-party packages are its open-source Android/Java code
+  hardening and bytecode tooling (ProGuard family) plus the AppSweep CI GitHub
+  Action. These are developer tools / libraries, not API client SDKs — Guardsquare
+  publishes no public REST API SDK (the AppSweep/Platform API is behind a login),
+  so no `SDKs` pointer is emitted. All coordinates below were verified live on
+  Maven Central / GitHub.
+packages:
+  - language: java
+    registry: maven
+    name: com.guardsquare:proguard-base
+    url: https://repo1.maven.org/maven2/com/guardsquare/proguard-base/
+    install: "implementation 'com.guardsquare:proguard-base'"
+    official: true
+    description: ProGuard Java class file shrinker, optimizer, and obfuscator (base).
+  - language: java
+    registry: maven
+    name: com.guardsquare:proguard-gradle
+    url: https://repo1.maven.org/maven2/com/guardsquare/proguard-gradle/
+    install: "classpath 'com.guardsquare:proguard-gradle'"
+    official: true
+    description: ProGuard Gradle plugin for Android/Java builds.
+  - language: java
+    registry: maven
+    name: com.guardsquare:proguard-core
+    url: https://repo1.maven.org/maven2/com/guardsquare/proguard-core/
+    install: "implementation 'com.guardsquare:proguard-core'"
+    official: true
+    description: Library to read, write, analyze, and process Java bytecode.
+  - language: java
+    registry: maven
+    name: com.guardsquare:proguard-assembler
+    url: https://repo1.maven.org/maven2/com/guardsquare/proguard-assembler/
+    install: "implementation 'com.guardsquare:proguard-assembler'"
+    official: true
+    description: Assembler and disassembler for Java class files.
+  - language: java
+    registry: maven
+    name: com.guardsquare:proguard-retrace
+    url: https://repo1.maven.org/maven2/com/guardsquare/proguard-retrace/
+    install: "implementation 'com.guardsquare:proguard-retrace'"
+    official: true
+    description: De-obfuscates stack traces using a ProGuard mapping file.
+  - language: yaml
+    registry: github-actions
+    name: Guardsquare/appsweep-action
+    url: https://github.com/Guardsquare/appsweep-action
+    install: "uses: guardsquare/appsweep-action@v1"
+    official: true
+    description: GitHub Action to upload Android builds to AppSweep for continuous mobile app security scanning.

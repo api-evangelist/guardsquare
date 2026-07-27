@@ -1,9 +1,33 @@
 aid: guardsquare
 name: GuardSquare
-description: GuardSquare is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Guardsquare is a mobile application security company that protects iOS and
+  Android apps against reverse engineering, tampering, and runtime attacks
+  through a multilayered defense platform. Its products include DexGuard
+  (Android code hardening, polymorphic obfuscation, and RASP), iXGuard (the iOS
+  equivalent for native and cross-platform apps and SDKs), AppSweep (mobile
+  application security testing that finds vulnerabilities in app code and
+  dependencies and integrates into CI/CD), ThreatCast (real-time post-release
+  threat monitoring), and App Attestation (server-side runtime verification that
+  only genuine apps can reach your APIs). Guardsquare also maintains the widely
+  used open-source ProGuard family of Java bytecode shrinking, optimization, and
+  obfuscation tooling. Protections cover Java, Kotlin, Swift, Objective-C, and
+  cross-platform frameworks including React Native, Flutter, Unity, Cordova, and
+  Ionic. The company was added to the API Evangelist network as a portfolio
+  company of Battery Ventures and enriched from its public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/guardsquare/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.guardsquare.com/hubfs/gs-logo-2x.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +36,68 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mobile App Security
+- Application Security
+- Code Obfuscation
+- Runtime Application Self-Protection
+- Mobile Application Security Testing
+- App Hardening
+- App Attestation
+- Threat Monitoring
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: TrustCenter
+  url: security/guardsquare-trust-center.yml
+- type: Compliance
+  url: https://www.guardsquare.com/security
+- type: VulnerabilityDisclosure
+  url: security/guardsquare-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.guardsquare.com/disclosure-policy
+- type: DomainSecurity
+  url: security/guardsquare-domain-security.yml
+- type: Website
+  url: https://www.guardsquare.com
+- type: Portal
+  url: https://platform.guardsquare.com
+- type: Documentation
+  url: https://docs.guardsquare.com/
+- type: Blog
+  url: https://www.guardsquare.com/blog
+- type: GitHubOrganization
+  url: https://github.com/Guardsquare
+- type: Pricing
+  url: https://www.guardsquare.com/pricing
+- type: SignUp
+  url: https://platform.guardsquare.com/login
+- type: Support
+  url: https://www.guardsquare.com/support
+- type: TermsOfService
+  url: https://www.guardsquare.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.guardsquare.com/privacy-policy
+- type: StatusPage
+  url: https://status.guardsquare.com/
+- type: Lifecycle
+  url: lifecycle/guardsquare-lifecycle.yml
+- type: Packages
+  url: packages/guardsquare-packages.yml
+- type: SecurityTxt
+  url: well-known/guardsquare-security.txt
+- type: WellKnown
+  url: well-known/guardsquare-well-known.yml
+- type: LLMsTxt
+  url: llms/guardsquare-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

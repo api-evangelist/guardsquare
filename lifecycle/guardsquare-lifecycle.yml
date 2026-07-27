@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.guardsquare.com/
+status_page: https://status.guardsquare.com/
+status_page_vendor: Atlassian Statuspage
+security_contact: security@guardsquare.com
+disclosure_policy: https://www.guardsquare.com/disclosure-policy
+notes: >-
+  Guardsquare operates a public Atlassian Statuspage for the Guardsquare Platform
+  (AppSweep / ThreatCast / DexGuard / iXGuard tooling). Product versioning and any
+  API deprecation/Sunset (RFC 8594) policy are documented inside the login-gated
+  platform docs (docs.guardsquare.com) and were not publicly retrievable; no
+  deprecated operations could be derived because no public OpenAPI is published.
+versioning:
+  scheme: unknown-gated-docs
+deprecation:
+  policy_url: null
+  sunset_header: null
