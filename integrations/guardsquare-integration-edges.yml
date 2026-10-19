@@ -1,8 +1,15 @@
 generated: '2026-10-14'
 method: searched
 checked:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
 - https://github.com/marketplace?type=actions
 - https://github.com/marketplace?type=apps
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
 marketplace_apps: []
 edges:
 - partner_name: GitHub Marketplace (apps)
@@ -39,6 +46,72 @@ edges:
   - Verified creator
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
+- partner_name: Maven Central
+  partner: maven-central
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (Java/JVM)
+  evidence: https://central.sonatype.com/artifact/com.guardsquare/proguard-assembler
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: Maven Central (public registry JSON)
+    spec_file: null
+    language: Java/JVM
+    packages:
+    - name: com.guardsquare:proguard-assembler
+      version: 1.0.0
+      released: '2022-10-06'
+      released_field: lastUpdated
+      lapsed: true
+      page: https://central.sonatype.com/artifact/com.guardsquare/proguard-assembler
+      repo_leg: github-org:guardsquare
+      publisher_leg: groupId:guardsquare.com
+      matched_by: domain
+    - name: com.guardsquare:proguard-base
+      version: 7.10.0
+      released: '2026-08-24'
+      released_field: lastUpdated
+      lapsed: false
+      page: https://central.sonatype.com/artifact/com.guardsquare/proguard-base
+      repo_leg: domain:guardsquare.com
+      publisher_leg: groupId:guardsquare.com
+      matched_by: domain
+    - name: com.guardsquare:proguard-core
+      version: 9.4.0
+      released: '2026-08-24'
+      released_field: lastUpdated
+      lapsed: false
+      page: https://central.sonatype.com/artifact/com.guardsquare/proguard-core
+      repo_leg: github-org:guardsquare
+      publisher_leg: groupId:guardsquare.com
+      matched_by: domain
+    - name: com.guardsquare:proguard-gradle
+      version: 7.10.0
+      released: '2026-08-24'
+      released_field: lastUpdated
+      lapsed: false
+      page: https://central.sonatype.com/artifact/com.guardsquare/proguard-gradle
+      repo_leg: domain:guardsquare.com
+      publisher_leg: groupId:guardsquare.com
+      matched_by: domain
+    - name: com.guardsquare:proguard-retrace
+      version: 7.10.0
+      released: '2026-08-24'
+      released_field: lastUpdated
+      lapsed: false
+      page: https://central.sonatype.com/artifact/com.guardsquare/proguard-retrace
+      repo_leg: domain:guardsquare.com
+      publisher_leg: groupId:guardsquare.com
+      matched_by: domain
+    current: true
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
 source:
 - https://github.com/marketplace?type=actions
 - https://github.com/marketplace?type=apps
