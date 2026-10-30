@@ -64,6 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-GuardSquare is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Guardsquare is a mobile application security company that protects iOS and Android apps against reverse engineering, tampering, and runtime attacks through a multilayered defense platform. Its products include DexGuard (Android code hardening, polymorphic obfuscation, and RASP), iXGuard (the iOS equivalent for native and cross-platform apps and SDKs), AppSweep (mobile application security testing that finds vulnerabilities in app code and dependencies and integrates into CI/CD), ThreatCast (real-time post-release threat monitoring), and App Attestation (server-side runtime verification that only genuine apps can reach your APIs). Guardsquare also maintains the widely used open-source ProGuard family of Java bytecode shrinking, optimization, and obfuscation tooling. Protections cover Java, Kotlin, Swift, Objective-C, and cross-platform frameworks including React Native, Flutter, Unity, Cordova, and Ionic. The company was added to the API Evangelist network as a portfolio company of Battery Ventures and enriched from its public developer surface.
 
-Backed by: battery-ventures
+**Areas:** Company · Mobile App Security · Application Security · Code Obfuscation · Runtime Application Self-Protection · Mobile Application Security Testing · App Hardening · App Attestation · Threat Monitoring
+
+## GuardSquare on APIs.io
+
+Everything profiled for GuardSquare is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/guardsquare/](https://apis.io/providers/guardsquare/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Guardsquare Domain Security](https://apis.io/security/guardsquare/guardsquare-domain-security/)
+- [Guardsquare Trust Center](https://apis.io/security/guardsquare/guardsquare-trust-center/)
+- [Guardsquare Vulnerability Disclosure](https://apis.io/security/guardsquare/guardsquare-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.guardsquare.com)
+- [Documentation](https://docs.guardsquare.com/)
+- [Pricing](https://www.guardsquare.com/pricing)
+- [Sign up](https://platform.guardsquare.com/login)
+- [Support](https://www.guardsquare.com/support)
+- [Blog](https://www.guardsquare.com/blog)
+- [Security](https://www.guardsquare.com/disclosure-policy)
+- [Compliance](https://www.guardsquare.com/security)
+- [Terms of service](https://www.guardsquare.com/terms-of-use)
+- [Privacy policy](https://www.guardsquare.com/privacy-policy)
+- [GitHub](https://github.com/Guardsquare)
+- [Status](https://status.guardsquare.com/)
+
+## API Evangelist rating
+
+**Kin Score 26.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 60.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/guardsquare/](https://apis.io/providers/guardsquare/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GuardSquare: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/guardsquare/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
